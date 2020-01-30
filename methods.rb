@@ -23,9 +23,9 @@
 
 # greeting("ben", "Ruby")
 
-def greeting_all (name = "neighbour", programme, food = "tomato")
-  puts "Hello #{name} nice #{programme}, what #{food} do you have?"
+def greeting_all (name, programme= "Ruby", food = "tomato", colour)
+  puts "Hello #{name} nice #{programme}, what #{food} do you have is it #{colour}?"
 end
 
-greeting_all(  "Ruby")
-greeting_all("Ben", "C++", "tomato")
+greeting_all(  "Ben","blue")
+greeting_all("Ben", "C++", "tomato", "blue")
