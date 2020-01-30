@@ -28,4 +28,4 @@ def greeting_all (name, programme= "Ruby", food = "tomato", colour)
 end
 
 greeting_all(  "Ben","blue")
-greeting_all("Ben", "C++", "tomato", "blue")
+greeting_all("Ben", "C++", "blue")
