@@ -29,3 +29,9 @@ end
 
 greeting_all(  "Ben","blue")
 greeting_all("Ben", "C++", "blue")
+
+def stylish_chef
+  best_hairstyle = "Guy Fieri"
+  return "Martha Stewart"
+  "Guy Fieri"
+end
